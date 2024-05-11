@@ -19,10 +19,10 @@
 
     <!-- scripts -->
     <script src="/js/green-audio-player.min.js"></script>
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="/js/app.js" defer></script>
 
     <!-- styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/green-audio-player.min.css">
 </head>
 <body class="antialiased scrollbar scrollbar-thin d-scrollbar scrollbar-track-transparent fira-sans body-bg">
