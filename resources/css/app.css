@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gurmukhi-noto-sans {
+    font-family: 'Noto Sans Gurmukhi', sans-serif;
+}
+
+.gurmukhi-noto-serif {
+    font-family: 'Noto Serif Gurmukhi', serif;
+}
+
+.devanagari-noto-sans {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+.devanagari-noto-serif {
+    font-family: 'Noto Serif Devanagari', serif;
+}
+
+.fira-sans {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.body-bg {
+    text-shadow: 1px 1px 2px #444;
+    background: #333 url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiPgogIDxwYXRoIHN0eWxlPSJzdHJva2U6IzAwMDtzdHJva2Utd2lkdGg6LjU7c3Ryb2tlLW9wYWNpdHk6LjI1IiBkPSJNIDAsMCA0LDQgTSAwLDQgNCwwIi8+Cjwvc3ZnPg==");
+}
+
+.no-text-shadow {
+    text-shadow: none;
+}
+
+.d-scrollbar {
+    --scrollbar-thumb: #4F5B93;
+}
+
+.dark .d-scrollbar {
+    --scrollbar-thumb: #4F5B93;
+}
+
+.nav-light {
+    background-color: #7A86B8;
+}
+
+.nav-dark {
+    background-color: #4F5B93;
+}
+
+.nav-border {
+    border-bottom: 0.25rem solid #4F5B93;
+}
+
+.color-headings {
+    color: #4F5B93;
+    background-color: #7A86B817;
+}
+
+.menu-item {
+    color: white;
+    background-color: transparent;
+}
+
+.menu-item:hover {
+    background-color: #4F5B93;
+}
+
+.menu-item.active {
+    background-color: #4F5B93;
+}
+
+.menu-button {
+    color: white;
+    background-color: #4F5B93;
+}
+
+.menu-button:hover {
+    background-color: #333;
+}
+
+.page-button {
+    color: white;
+    background-color: #4F5B93;
+}
+
+.page-button:hover {
+    background-color: #7A86B8;
+}
+
+.shabad {
+    color: #369;
+    background-color: #F2F2F2;
+    text-shadow: none;
+}
+
+.shabad-border {
+    border-right: 0.25rem solid #666;
+}
+
+.slider, input[type='text'], select, .live  {
+    -webkit-appearance: none;
+    height: 25px;
+    background: #FFF;
+    outline: none;
+    opacity: 0.8;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover, input[type='text']:hover, input[type='text']:focus, select:hover, select:focus, .live:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #4F5B93;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #4F5B93;
+    cursor: pointer;
+}
+
+.special {
+    background-color: #4F5B9311;
+    padding: 24px 0;
+}
