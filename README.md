@@ -1,26 +1,19 @@
-## About Granth Sahib - Gurbani Search
 
-This is a platform to search Gurbani, Get Hukamnama from Darbar Sahib and download Gurbani.
+# Granth Sahib - Gurbani Search
 
-- Search and query Sri Guru Granth Sahib using Punjabi, Hindi and English
-- Simple and Powerful API backend.
-- Up to date Guru Granth Sahib data.
-- Support for downloading JSON and PDF formatted data.
+## Allows you to find text among entire Sri Guru Granth Sahib and other religious books. It also allows Nitnem (daily prayers) and Live radio feed from Sri Darbar Sahib, Amritsar.
 
-This is compatible with all browsers.
+This repository contains source code for my app [Granth Sahib](https://granthsahib.in).
 
-## Contributing
+![image](https://github.com/manpreet-rai/gurbanis-app/assets/149692162/a8ec7ab0-09eb-4cf1-a7f8-9ab6b28c57bd)
 
-If you want to contribute you can contact me here at GitHub.
 
-## Code of Conduct
+## Technologies Used:
+### Frontend
+ - TailwindCSS (CSS)
+ 
+### Backend
+ - Laravel
+ - PHP
 
-In order to ensure that the community is welcoming to all, please review and abide by the Code of Conduct. (To be published soon)
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within this project, please send me a message. All security vulnerabilities will be promptly addressed.
-
-## License
-
-This project is open-sourced software licensed under the GPLv2.
+Source code available for audit only. &copy; 2023 Manpreet Rai. All rights reserved.
